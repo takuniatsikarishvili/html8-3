@@ -1,0 +1,61 @@
+!DOCTYPE html>
+<html lang="kA">
+    <head>
+        <meta charset="UTF">
+        <link rel="icon" href="icon.svg">
+        <title>სემატიკური და არა სემანტიკური ელემენტები</title>
+    </head>
+    <body>
+        <header>
+           <h1>სემანტიკური HTML-ის სწავლა</h1>
+        </header>
+        <main>
+            <section>
+              <h2>არასემანტიკური Div ელემენტები</h2>
+              <p>&ltdiv&gt დივ ელემენტი გამოიყენება ბლოკური შინარსის ჯგუფისთვის, თუმცა მას საკუთარი მნიშვნელობა არ გააჩნია</p>
+            </section>
+            <section>
+                <h2>ცხრილების და ფორმების გმოყენება</h2>
+                <caption>
+                    <p>მომხმარებელთა ინფორმაციის ცხრილი</p>
+                </caption>
+                <table border="1">
+                    <thead>
+                        <tr>
+                        <th>სახელი</th>
+                        <th>ელ.ფოსტა</th>
+                        <th>ასაკი</th>
+                        </tr>
+                        <tr>
+                            <td>გიორგი ბერიძე</td>
+                            <td>giorgi@example.com</td>
+                            <td>28</td>
+                        </tr>
+                        <tr>
+                            <td>ლიკა დევდარიანი</td>
+                            <td>lika@example.com</td>
+                            <td>32</td>
+                        </tr>
+
+                    </thead>
+                </table>
+            </section>
+            <section>
+                <h2>კონტაქტის ფორმა</h2>
+                <form>
+                    <label for="სახელი"> სახელი</label><br/>
+                    <input type="text" id="name" name="სახელი"><br/>
+                    <label for="mail">ელ.ფოსტა</label><br/>
+                    <input type="email" id="mail"name="მეილი"><br/>
+                    <label  for="ago">ასაკი</label><br/>
+                    <input type="number" id="ago" name="ასაკი">
+                    <br/><br/>
+                    <input type="submit" value="გაგზავნა">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 სემანტიკური და არა სემანტიკური HTML-ის მაგალითი</p>
+        </footer>
+    </body>
+</html>
